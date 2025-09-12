@@ -1,22 +1,37 @@
+// import './App.css';
+
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Home from './pages/Home/Home';
+
+// function App(){
+//     return (
+//         <BrowserRouter>
+//           <Routes>
+//             <Route path="/" element = {<Home/>} />
+//               <Home />
+            
+            
+//           </Routes>
+
+
+//         </BrowserRouter>
+//     );
+// }
+
+// export default App;
 
 import './App.css';
-import{BrowserRouter, Route} from 'react-router-dom';
-import Home from './pages/home/home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/Home';
 
-function App() {
-  return (
-    <BrowserRouter>
-     <switch>
-      <Route path='/' exact>
-      <Home>
-        
-      </Home>
-
-      </Route>
-     </switch>
-    </BrowserRouter>
-   
-  );
+function App(){
+    return (
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element = {<Home/>}/>
+          </Routes>
+        </BrowserRouter>
+    )
 }
 
 export default App;
